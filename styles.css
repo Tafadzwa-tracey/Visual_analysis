@@ -1,0 +1,30 @@
+pre {
+  font-size: 7em;
+}
+.marks {
+  fill: #13AB80;
+}
+.marks .sphere {
+  fill: #bcecec;
+}
+.marks .interiors{
+  fill: none;
+  stroke: #4358D8;
+}
+.marks {
+  fill: none;
+  stroke: #dadada;
+}
+.marks .graticules {
+  fill: none;
+  stroke: #dadada;
+}
+.marks circle {
+  fill: #137B80;
+}
+.mark path {
+  stroke: #137B80;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
