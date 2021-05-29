@@ -50,7 +50,8 @@
     '#37aeb8',
     '#d95f02',
     '#66c60e',
-    '#fb7a89'
+    '#fb7a89',
+    '#fc380c'
   ];
 
   // Appearance customization to improve readability.
