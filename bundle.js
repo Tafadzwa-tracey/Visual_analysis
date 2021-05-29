@@ -34,20 +34,19 @@
   ];
 
   const Group5Color = [
-    '#e41a1c',
-    '#377eb8',
-    '#4daf4a',
-    '#984ea3',
-    '#ff7f00'
+    '#fc2357',
+    '#fc23ac',
+    '#db23fc',
+    '#9323fc',
+    '#23fb8d'
   ];
 
   const Group10Color = [
-    '#f42a0c',
-    '#062ec3',
-    '#ff7f00',
-    '#4d9f4a',
-    '#984ea3',
-    '#f7298a',
+    '#fc2357',
+    '#fc23ac',
+    '#db23fc',
+    '#9323fc',
+    '#23fb8d',
     '#37aeb8',
     '#d95f02',
     '#66c60e',
@@ -568,7 +567,7 @@
 
     //Note that schemeYlOrRd and interpolatePuRd are different
     //Use interpolateYlOrRd instead
-    const mapColorScale = d3.scaleSequential(d3.interpolateYlOrRd)
+    const mapColorScale = d3.scaleSequential(d3.interpolatePuBuGn)
       .domain(newExtent);
     
     const mapColorScale1 = d3.scaleLinear()
